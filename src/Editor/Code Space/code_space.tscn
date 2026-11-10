@@ -1,12 +1,7 @@
 [gd_scene format=3 uid="uid://dqddxhwwmufyf"]
 
 [ext_resource type="Theme" uid="uid://btjp4bhtwg545" path="res://src/Theme/dfault_theme.tres" id="1_c5uwo"]
-
-[sub_resource type="CodeHighlighter" id="CodeHighlighter_pribe"]
-number_color = Color(0.72664464, 0.8179458, 1, 1)
-symbol_color = Color(0.89387286, 0.8938728, 0.89387286, 1)
-function_color = Color(0.9188672, 0.54954153, 0.4443184, 1)
-member_variable_color = Color(0.9999998, 0.53765464, 0.23392484, 1)
+[ext_resource type="CodeHighlighter" uid="uid://iqs5ym0u3lc0" path="res://src/Editor/Code Space/main_highlighter.tres" id="2_6sigp"]
 
 [node name="CodeSpace" type="CodeEdit" unique_id=745082227]
 anchors_preset = 15
@@ -16,10 +11,13 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_c5uwo")
 placeholder_text = "this is what text looks like"
+emoji_menu_enabled = false
 scroll_smooth = true
 minimap_draw = true
 caret_mid_grapheme = true
-syntax_highlighter = SubResource("CodeHighlighter_pribe")
+syntax_highlighter = ExtResource("2_6sigp")
+highlight_all_occurrences = true
+highlight_current_line = true
 draw_tabs = true
 draw_spaces = true
 line_folding = true
