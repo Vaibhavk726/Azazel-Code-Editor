@@ -1,3 +1,7 @@
 [gd_scene format=3 uid="uid://cvb84psn61cpe"]
 
+[ext_resource type="PackedScene" uid="uid://dqddxhwwmufyf" path="res://src/Editor/Code Space/code_space.tscn" id="1_dop5u"]
+
 [node name="Root" type="Node" unique_id=1926397001]
+
+[node name="CodeSpace" parent="." unique_id=745082227 instance=ExtResource("1_dop5u")]

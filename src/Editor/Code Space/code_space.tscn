@@ -1,8 +1,22 @@
 [gd_scene format=3 uid="uid://dqddxhwwmufyf"]
 
+[sub_resource type="CodeHighlighter" id="CodeHighlighter_pribe"]
+
 [node name="CodeSpace" type="CodeEdit" unique_id=745082227]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+scroll_smooth = true
+minimap_draw = true
+caret_type = 1
+caret_blink = true
+syntax_highlighter = SubResource("CodeHighlighter_pribe")
+draw_tabs = true
+draw_spaces = true
+line_folding = true
+code_completion_enabled = true
+indent_automatic = true
+auto_brace_completion_enabled = true
+auto_brace_completion_highlight_matching = true
