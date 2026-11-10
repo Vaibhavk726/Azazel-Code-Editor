@@ -3,6 +3,10 @@
 [ext_resource type="Theme" uid="uid://btjp4bhtwg545" path="res://src/Theme/dfault_theme.tres" id="1_c5uwo"]
 
 [sub_resource type="CodeHighlighter" id="CodeHighlighter_pribe"]
+number_color = Color(0.72664464, 0.8179458, 1, 1)
+symbol_color = Color(0.89387286, 0.8938728, 0.89387286, 1)
+function_color = Color(0.9188672, 0.54954153, 0.4443184, 1)
+member_variable_color = Color(0.9999998, 0.53765464, 0.23392484, 1)
 
 [node name="CodeSpace" type="CodeEdit" unique_id=745082227]
 anchors_preset = 15
