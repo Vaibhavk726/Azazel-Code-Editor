@@ -2,6 +2,7 @@
 
 [ext_resource type="Theme" uid="uid://btjp4bhtwg545" path="res://src/Theme/dfault_theme.tres" id="1_c5uwo"]
 [ext_resource type="CodeHighlighter" uid="uid://iqs5ym0u3lc0" path="res://src/Editor/Code Space/main_highlighter.tres" id="2_6sigp"]
+[ext_resource type="Script" uid="uid://d4k6scj72vwqb" path="res://src/Editor/Code Space/code_space.gd" id="3_segwe"]
 
 [node name="CodeSpace" type="CodeEdit" unique_id=745082227]
 anchors_preset = 15
@@ -25,3 +26,4 @@ code_completion_enabled = true
 indent_automatic = true
 auto_brace_completion_enabled = true
 auto_brace_completion_highlight_matching = true
+script = ExtResource("3_segwe")
