@@ -1,7 +1,18 @@
 [gd_scene format=3 uid="uid://cvb84psn61cpe"]
 
 [ext_resource type="PackedScene" uid="uid://dqddxhwwmufyf" path="res://src/Editor/Code Space/code_space.tscn" id="1_dop5u"]
+[ext_resource type="PackedScene" uid="uid://ddkuolusj8et7" path="res://src/Editor/Tabs/tab_system.tscn" id="1_pribe"]
 
 [node name="Root" type="Node" unique_id=1926397001]
 
-[node name="CodeSpace" parent="." unique_id=745082227 instance=ExtResource("1_dop5u")]
+[node name="TabSystem" parent="." unique_id=205781842 instance=ExtResource("1_pribe")]
+current_tab = 0
+
+[node name="CodeSpace" parent="TabSystem" unique_id=745082227 instance=ExtResource("1_dop5u")]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="CodeSpace2" parent="TabSystem" unique_id=399355942 instance=ExtResource("1_dop5u")]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
