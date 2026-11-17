@@ -1,8 +1,12 @@
 [gd_scene format=3 uid="uid://ddkuolusj8et7"]
 
+[ext_resource type="Theme" uid="uid://btjp4bhtwg545" path="res://src/Theme/dfault_theme.tres" id="1_xp7ju"]
+
 [node name="TabSystem" type="TabContainer" unique_id=205781842]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_xp7ju")
+drag_to_rearrange_enabled = true
