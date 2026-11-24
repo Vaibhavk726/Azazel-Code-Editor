@@ -22,6 +22,7 @@ highlight_current_line = true
 draw_tabs = true
 draw_spaces = true
 line_folding = true
+gutters_draw_line_numbers = true
 code_completion_enabled = true
 indent_automatic = true
 auto_brace_completion_enabled = true
